@@ -1,0 +1,16 @@
+@media (max-width: 1000px) {
+    .frame2 .carrosel{
+        overflow-x: auto;
+        transform: translateX(0);
+        transition: transform 0.5s ease-in-out; 
+    }
+
+    .frame2 .carrosel:hover {
+        transform: translateX(-20px);
+    }
+        
+    .frame2 .carrosel::-webkit-scrollbar {
+        display: none; 
+    }
+    
+  }
